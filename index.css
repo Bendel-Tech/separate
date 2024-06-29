@@ -1,0 +1,149 @@
+/* styles.css */
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    height: 60px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Styles */
+.hero {
+    background-image: linear-gradient(to bottom, #8d219b, #302a30);
+    background-size: 100px;
+    background-position: top;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 65px;
+    text-align: center;
+}
+
+.hero img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.hero p {
+    font-size: larger;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-left: 47%;
+    cursor: pointer;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: #666;
+}
+
+/* Featured Styles */
+.body{
+    background-image: url(003.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1.5;
+}
+
+.featured {
+    padding: 2em;
+}
+
+.featured h2 {
+    margin-top: 0;
+}
+
+.featured .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured .col {
+    flex-basis: 30%;
+    margin: 100px;
+    height: 200px;
+   
+}
+
+.featured img {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+}
+
+.featured h3 {
+    margin-top: 10px;
+}
+
+.featured p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+.highlight{
+    color: gold;
+}
+
+a:hover{
+    color: blue;
+}

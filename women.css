@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #0f199e, #e6e952e8);
+    background-size: 100px;
+    background-position: center;
+    height: 120vh;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+
+.hero img {
+    width: 25%;
+    height: 60%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+
+.hero h1 {
+    padding: 40px;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 42%;
+}
+
+.hero button:hover {
+    background-color: #666;
+}
+
+.categories {
+    background-color: #f7f7f7;
+padding: 50px 0;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.category {
+    margin: 0 auto 50px;
+    width: 30%;
+    text-align: left;
+}
+
+.category img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.category button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.category button:hover {
+    background-color: #666;
+}
+
+.trends {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.trends h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.trend {
+    margin: 0 auto 50px;
+    width: 30%;
+    text-align: left;
+}
+
+.trend img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.trend h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.trend p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+.highlight{
+    color: gold;
+}
+
+a:hover{
+    color: blue;
+}
